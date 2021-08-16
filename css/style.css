@@ -1,0 +1,38 @@
+/*
+        Default Values: 
+
+        Font Family : Roboto Condensed
+
+        Greenish Blue : #34c6d3 (buttons, icons, links, lines, & Background)
+        Steel Gray : #414646 (Headings)
+        Blue Bayox : #64707b (paragraphs)
+        white : #fff (text with black background)
+        Black : #000     
+
+
+*/
+
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/*====================================================
+                        HOME
+======================================================*/
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
